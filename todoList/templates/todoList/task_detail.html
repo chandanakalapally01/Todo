@@ -1,0 +1,5 @@
+{% extends 'todoList/main.html' %}
+{% block content %}
+<a href = '{% url 'tasks'%}'>Go back</a>
+<h1>Task: {{task.title}} </h1>
+{% endblock content %}
